@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="fibber-app">
+    <configurations>
+      <configuration name="fibber-app" target-platform="Mobile" pure-as="true" main-class="FibberApp" output-file="FibberApp.swf" output-folder="$MODULE_DIR$/out/production/fibber-app">
+        <dependencies target-player="21.0">
+          <sdk name="Flex SDK 21" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/FibberApp-app.xml" package-file-name="FibberApp">
+          <AirSigningOptions keystore-path="$USER_HOME$/Google Drive/dev_certificates/android_certificate.p12" use-temp-certificate="false" />
+        </packaging-android>
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/FibberApp-app.xml" package-file-name="FibberApp">
+          <AirSigningOptions sdk="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk" keystore-path="$USER_HOME$/Google Drive/dev_certificates/FibberApp/fibber_app_development_key.p12" provisioning-profile-path="$USER_HOME$/Google Drive/dev_certificates/FibberApp/fibberapp_development_profile.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Flex SDK 21" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
